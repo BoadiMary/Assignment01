@@ -1,0 +1,16 @@
+my_tuple=("red","green","blue","green","yellow")
+print(f"initial Tuple: {my_tuple}")
+print(f"Element at index 0: {my_tuple[0]}")
+print(f"Element at index 1 to 3: {my_tuple[1:4]}")
+print(f"attempted to change:{my_tuple}")
+print("attempting to change a tuple item will result in a TypeError because tuples are immutable.")
+print("looping through tuple:")
+for item in my_tuple:
+    print(item)
+green_count=my_tuple.count("green")
+print(f"count of'green':{green_count}")
+blue_index=my_tuple.index("blue")
+print(f"index of'blue':{blue_index}")
+lenght_tuple=len(my_tuple)
+print(f"Lenght of the Tuple: {lenght_tuple}")
+

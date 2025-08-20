@@ -1,0 +1,18 @@
+my_list=["apple","banana","cherry","date","banana"]
+print(f"initial List: {my_list}")
+del my_list[2]
+print(f"After del my_list[2]:{my_list}")
+my_list.append("grape")
+print(f"After append('grape'): {my_list}")
+my_list.extend(['kiwi','lemon'])
+print(f"After extend(['kiwi','lemon']):{my_list}")
+my_list.insert(1,"orange")
+print(f"After insert(1,'orange'):{my_list}")
+pooped_item=my_list.pop()
+print(f"After pop():{my_list},Popped Item: {pooped_item}")
+my_list.remove("banana")
+print(f"After remove('banana'): {my_list}")
+my_list.reverse()
+print(f"After reverse(): {my_list}")
+my_list.sort()
+print(f"After sort(): {my_list}")
